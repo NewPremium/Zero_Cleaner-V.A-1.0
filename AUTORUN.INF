@@ -1,0 +1,13 @@
+[autorun]
+;
+;FOR Zero_Cleaner
+;Developer - 천상의나무
+;
+OPEN=Zero_Cleaner.bat
+SHELLEXECUTE=Zero_Cleaner.bat
+ACTION=Zero_Cleaner
+ICON=Picture\Zero_Cleaner.ico
+LABEL=Zero_Cleaner
+SHELL\OPEN\COMMAND=Zero_Cleaner.bat
+SHELL\OPEN=Cleaning Computer!
+SHELL=OPEN

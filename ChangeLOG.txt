@@ -1,0 +1,47 @@
+--- 2018 : 01 : 27 ---
+V.ALPHA
+
+최초 개발
+
+--- 2018 : 02 : 23 ---
+V.BETA
+
+Zero_Cleaner 로딩화면 변경 및 화면크기 변경
+ChangeLOG.txt 추가
+압축해제 하지않고 바로 실행할경우 Zero_Cleaner 실행불가 구문추가
+system 폴더의 모든파일 스캔, 하나라도 필요한 파일이 없을경우 Zero_Cleaner 실행불가 구문추가
+오류로 인한 필요없는 프로그램 제거 구문 및 UninstallW.exe 파일을 system 폴더에서 제거
+필요없는 프로세스 목록 추가 및 프로세스 종료구문 변경
+인터넷 검색기록 및 쿠키 제거구문 추가(초기 선택시 임시파일 제거에서 "1" 누를경우에 사용가능)
+Zero_Cleaner 종료시 exit가 아닌 taskkill.exe를 이용해 CMD 강제종료
+강제 재부팅현상(4, 5, 6, 7, 8세대 인텔 CPU에 한해서)을 유발한(KB4056892, KB4056891, KB4056890 ,KB4056898 ,KB4056897)윈도우 업데이트 제거 목록에 추가
+Zero_Cleaner 로그작성기능 추가
+
+--- 2018 : 05 : 05 ---
+V.A-1.0
+
+Zero_Cleaner_Opthion\Zero_Cleaner 인터넷속도 부스터 또는 해제.cmd 파일 추가
+Zero_Cleaner 내부 몇몇 단어 수정
+삭제목록.txt파일 제거
+필요한 분들을 위해 Zero_Cleaner_Option\Zero_Cleaner 인터넷속도 부스터 또는 해제.cmd 추가
+로딩시간을인터넷 3초에서 2초로 변경
+Windows 업데이트 제거시 목록 출력
+임시파일제거 구문 추가(DNS 캐시 삭제)
+Zero_Cleaner.html 생성구문 추가
+관리자 권한 비실행시 오류메시지 수정
+프로세스 종료구문 추가
+한국어 미지원 컴퓨터 제외
+미지원 OS 제외 구문 추가(Windows 7~10 까지 지원)
+일부 오류 수정
+필요한 분들을 위해 Zero_Cleaner Option\악성 소프트웨어 제거도구 실행기.cmd 추가
+기능선택 순서 맞춤
+Zero_Cleaner 로딩화면 변경 및 화면크기 변경
+클리너 화면 출력 글자 대폭 수정
+LOG 파일 이름을 Zero_Cleaner_log_[(날짜-시간)]으로 변경 및 LOG 무제한 저장 가능
+AUTORUN.INF 추가(CD에 Zero_Cleaner 프로그램 넣는것에 대비)
+Newpremium.html 파일과 Zero_Cleaner.html 파일을 Zero_Cleaner_Opthion 폴더로 이동
+Picture 폴더 추가
+Picture 폴더에 Zero_Cleaner.PNG, Zero_Cleaner.ico, Zero_Cleaner-Loading.PNG 파일 추가
+일부 오류 메시지 영어화
+LOG에 컴퓨터의 비트수 추가(ex. x86 or x64)
+Zero_Cleaner_Option\Zero_Cleaner_Guide.html 추가
